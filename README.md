@@ -1,6 +1,6 @@
 # Y-gen
 
-Discord Bot
+Discord Bot: Yūgen
 Established: 12/2/2020
 
 Authors:
