@@ -2,6 +2,7 @@
 
 Discord Bot: Yūgen
 Established: 12/2/2020
+Version 1.0.0
 
 Authors:
 Rifat Hasan
