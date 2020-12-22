@@ -17,7 +17,7 @@ client.on("messageDelete", msg => {
 })
 
 client.on("message", msg => {
-  if (msg.content == "check") {
+  if (msg.content === 'check') {
     msg.react("👌")
   }
 
@@ -25,7 +25,7 @@ client.on("message", msg => {
     modUser(msg.member)
   }
 
-  if (message.content === "av") {
+  if (msg.content === 'av') {
     msg.reply(message.author.displayAvatarURL());
   }
 })
