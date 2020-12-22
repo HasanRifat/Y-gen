@@ -17,18 +17,16 @@ client.on("messageDelete", msg => {
 })
 
 client.on("message", msg => {
-  if (msg.content == "moron") {
-    msg.react("😈")
+  if (msg.content == "check") {
+    msg.react("👌")
   }
 
   if (msg.content === `${BOT_PREFIX}${MOD_ME_COMMAND}`) {
     modUser(msg.member)
   }
-})
 
-client.on('message', message => {
   if (message.content === "av") {
-    message.reply(message.author.displayAvatarURL());
+    msg.reply(message.author.displayAvatarURL());
   }
 })
 
