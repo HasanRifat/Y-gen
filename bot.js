@@ -26,6 +26,12 @@ client.on("message", msg => {
   }
 })
 
+client.on('message', message => {
+  if (message.content === "av") {
+    message.reply(message.author.displayAvatarURL());
+  }
+})
+
 function modUser(member) {
   member.roles.add("783901492175831080")
 }
